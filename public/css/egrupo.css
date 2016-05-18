@@ -1,0 +1,439 @@
+.hidden { display: none; }
+
+.alpha { margin-left: 0; }
+.omega { margin-right: 0; }
+
+.fleft { float: left; }
+.fright { float: right; }
+
+.mrgR5 { margin-right: 5px; }
+.mrgR10 { margin-right: 10px; }
+.mrgR50 { margin-right: 50px; }
+
+.mrgL5 { margin-left: 5px; }
+.mrgL10 { margin-left: 10px; }
+.mrgL20 { margin-left: 20px; }
+.mrgL50 { margin-left: 50px; }
+.mrgL200 { margin-left: 200px; }
+.mrgL305 { margin-left: 305px; }
+.mrgL453 { margin-left: 453px; }
+.mrgL613 { margin-left: 613px; }
+
+.mrgT5 { margin-top: 5px; }
+.mrgT10 { margin-top: 10px; }
+.mrgT20 { margin-top: 20px; }
+.mrgT50 { margin-top: 50px; }
+
+.mrgB0 { margin-bottom: 0px; }
+.mrgB5 { margin-bottom: 5px; }
+.mrgB10 { margin-bottom: 10px; }
+.mrgB50 { margin-bottom: 50px; }
+
+.clear { clear: both; }
+.clear1 { clear: both; height: 1px; }
+.clear2 { clear: both; height: 2px; }
+.clear3 { clear: both; height: 3px; }
+.clear5 { clear: both; height: 5px; }
+.clear10 { clear: both; height: 10px; }
+.clear20 { clear: both; height: 20px; }
+.clear40 { clear: both; height: 40px; }
+.clear50 { clear: both; height: 50px; }
+
+.h20 { height: 20px; }
+.h22 { height: 22px; }
+.h15 { height: 15px; }
+.h40 { height: 40px; }
+.w420 { width: 420px; }
+.w410 { width: 410px; }
+
+.spacer { height: 50px; }
+.spacer-mini { height: 10px; }
+
+
+.debugyellow { background: #FFD700; }
+.debuggreen { background: #395D33; }
+.debugblue { background: #0D4F8B; }
+.debugred { background: #CD2626; }
+
+.tbl-row-odd { 
+	background: #f9f9f9; 
+	padding: 10px;
+}
+.tbl-row-even {
+	padding: 10px;
+}
+
+/* Wrap words */
+pre { 
+	white-space: pre-wrap;
+ }
+
+
+.center { margin-left:auto; margin-right: auto; }
+.tcenter { text-align: center; }
+
+.link:hover {
+	color: #08c;
+	text-decoration: underline;
+}
+
+
+#more {
+	color: gray;
+	font-size: 2em;
+	margin-right: 30px;
+	float: right;
+}
+
+#more:hover {
+	color: black;
+	cursor: pointer;
+} 
+
+#link-form input {
+	height: 30px;
+}
+
+/* Styles das boxes de edit */
+#elem input, #ativ input,#prog input, #esp input,#etapa input {
+	height: 30px;
+	width: 300px;
+}
+
+#prog select,#esp select,#etapa select {
+	height: 30px;
+	width: 300px;
+}
+
+#elem button, #ativ button,#prog button,#esp button,#etapa button {
+	width: 300px;
+}
+/* Fim Styles das boxes de edit */
+
+.size250 { width: 250px; height: 250px; }
+.size200 { width: 200px; height: 200px; }
+.size150 { width: 150px; height: 150px; }
+.size100 { width: 100px; height: 100px; }
+.size80 { width: 80px; height: 80px; }
+.size50 { width: 50px; height: 50px; }
+.size40 { width: 40px; height: 40px; }
+.size20 { width: 20px; height: 20px; }
+.size10 { width: 10px; height: 10px; }
+.avatar { width: 250px; height: 250px; object-fit: cover; }
+.especialidade {width: 75px; height: 75px;}
+
+/* CSS da página do blog */ 
+#textInput { width: 100% }
+#resultado { width: 100% }
+#buttons { margin-top: 15px }
+
+/* CSS da página de listas */
+
+/* CSS da página de cadernos */
+#cadernos-nav-title {
+	text-align: center;
+}
+
+.item-especialidade {
+	width: 24%;
+}
+
+/* CSS da pagina de show escoteiros */
+.prova {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: 1rem;
+	margin: 0.3rem;
+}
+
+.provaespecialidade {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: 1rem;
+	margin: 0.3rem;
+}
+
+.calendario {
+	display: block;
+	width: 150px;
+	height: 150px;
+	padding: 0.5rem;
+	margin: 0.3rem;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	text-align: center;
+	float: left;
+}
+
+.prova-done {
+	background: #87D37C;
+}
+
+.prova-undone {
+	background: #B8B8B8;
+}
+
+.atividade-past {
+	background: #87D37C;
+}
+
+.atividade-future {
+	background: #D3D3D3;
+}
+
+.panel-green {
+	border-color: #5cb85c;
+}
+
+.panel-green>.panel-heading {
+	border-color: #5cb85c;
+	color: #fff;
+	background-color: #5cb85c;
+}
+
+pre>.presenca_p {
+	background-color: green;
+}
+
+pre>.presenca_f {
+	background-color: red;
+}
+
+
+/* LINKS PREFERIDOS */
+
+.whiteLink:hover {
+	text-transform: none;
+	text-decoration: underline;
+	color: #08C;
+}
+
+.wrapLink:hover .removePref {
+	visibility: visible;
+}
+
+.wrapElem:hover .removeElem, .wrapAtiv:hover .removeAtiv, .wrapPresenca:hover .removePresenca {
+	visibility: visible;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.removePref {
+	padding: 0px;
+	cursor: pointer;
+	background: transparent;
+	border: 0px;
+	font-size: 18px;
+	opacity: .5;
+	text-shadow: 0 1px 0 #fff;
+	margin-left: 5px;
+	margin-right: 5px;
+	visibility: hidden;
+	display: inline;
+}
+
+.removeElem, .removeAtiv, .removePresenca {
+	padding: 0px;
+	cursor: pointer;
+	background: transparent;
+	border: 0px;
+	font-size: 25px;
+	opacity: .5;
+	text-shadow: 0 1px 0 #fff;
+	margin-left: 15px;
+	margin-right: 15px;
+	visibility: hidden;
+	display: inline;
+}
+
+/* BOOSTRAP SUB MENU */
+.divisao-selected {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+/* TASKS */
+.removeCTask, .removeITask {
+	cursor: pointer;
+	background: transparent;
+	border: 0px;
+	font-size: 18px;
+	opacity: .5;
+	text-shadow: 0 1px 0 #fff;
+	padding-left: 4px;
+	visibility: hidden;
+	display: inline;
+	float: right;
+}
+
+.task {
+	margin-left: 7px;
+	margin-top: 0px;
+}
+
+.task:hover .removeITask,.task:hover .removeCTask {
+	visibility: visible;
+}
+
+#taskList, #collaborativeTaskList {
+
+}
+
+#taskListHeader, #collaborativeTaskListHeader {
+	background-color: #C0C0C0;
+	padding: 5px;
+}
+
+#taskListDetail, #collaborativeTaskListDetail {
+	background-color: #F0F0F0;
+	padding: 5px;	
+	height: 330px;
+}
+
+#inputAddITask, #inputAddCTask {
+	display: none;
+}
+
+#inputITask, #inputCTask {
+	width: 340px;
+	height: 22px;
+}
+
+#addITask, #addCTask {
+	cursor: pointer;
+}
+
+/*  Legendas */
+#lalc { background: #FFD700; }
+#ltes { background: #395D33; }
+#ltex { background: #0D4F8B; }
+#lcla { background: #CD2626; }
+#lnone { background: #F0F0F0; }
+
+textarea {
+	width: 100%;
+}
+
+.google-play-badge img {
+	width: 200px;
+}
+
+/* Ver Atividade dot PHP */
+#duracaoInput, #localInput, #linkInput, #tipoInput {
+	height: 22px;
+}
+
+#setDuracao, #setLocal, #setLink, #setTipo {
+	display: inline;
+}
+
+.cell-input-small {
+	width: 80px;
+}
+
+.cell-input-large {
+	width: 200px;
+}
+
+.cursor-default {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.btn-large-div1 { width: 20% }
+.btn-large-div2 { width: 25% }
+.btn-large-div3 { width: 25% }
+.btn-large-div4 { width: 15% }
+.btn-large-div5 { width: 15% }
+
+.highlight {
+    background-color: #FFFF88;
+}
+
+.panel-alcateia { border-color: #F9BF3B; }
+
+.panel-alcateia > .panel-heading {
+	color: #ffffff;
+	border-color: #F9BF3B;
+	background: #F9BF3B;
+}
+
+.panel-tes { border-color: #1E824C; }
+
+.panel-tes > .panel-heading {
+	color: #ffffff;
+	border-color: #1E824C;
+	background: #1E824C;
+}
+
+.panel-tex { border-color: #1F3A93; }
+
+.panel-tex > .panel-heading {
+	color: #ffffff;
+	border-color: #1F3A93;
+	background: #1F3A93;
+}
+
+.panel-cla { border-color: #F64747; }
+
+.panel-cla > .panel-heading {
+	color: #ffffff;
+	border-color: #F64747;
+	background: #F64747;
+}
+
+/* Material */
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+}
